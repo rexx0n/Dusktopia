@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "TT Octosquares";
+  color: white;
+}
+.background {
+  background-image: url(img/image2.png);
+  background-size: cover;
+}
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.header__links {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Neue Machina";
+  line-height: 140%;
+}
+.header__links h3 {
+  padding: 20px 39px 14px 39px;
+  background-image: url(img/Group48095913.png);
+}
+.header__links a {
+  padding-right: 32px;
+}
+.container {
+  max-width: 1803px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  writing-mode: vertical-lr;
+}
+nav a {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 39px;
+  font-family: "Neue Machina";
+  text-decoration: none;
+}
+nav a:hover {
+  color: white;
+}
+nav svg {
+  margin-bottom: 39px;
+}
+main h1 {
+  font-weight: 400;
+  font-size: 88px;
+  line-height: 78px;
+  letter-spacing: 0.365em;
+  margin-bottom: 39px;
+}
+main {
+  margin-left: 50px;
+}
+.main__select {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+}
+.main__select h3:first-child{
+  margin-right: 19px;
+  padding: 20px 45px 14px 46px;
+  background: url(img/Group48095869.png);
+}
+.main__select h3:first-child:hover {
+  background: url(img/fsfas.png);
+  color: black;
+}
+.main__select h3:last-child {
+  padding: 20px 21px 14px 20px;
+  background: url(img/Group48095913.png);
+}
+.main__select h3:last-child:hover {
+  color: black;
+  background: url(img/Group4.png);
+}
