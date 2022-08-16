@@ -14,6 +14,8 @@
   align-items: flex-start;
   justify-content: space-between;
   margin-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 57px;
 }
 .header__links {
   display: flex;
@@ -32,10 +34,11 @@
   padding-right: 32px;
 }
 .container {
-  max-width: 1803px;
+  max-width: 1761px;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  padding-bottom: 225px;
 }
 nav {
   display: flex;
@@ -43,15 +46,16 @@ nav {
 }
 nav a {
   color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 39px;
+  margin-bottom: 58px;
   font-family: "Neue Machina";
+  font-size: 22px;
   text-decoration: none;
 }
 nav a:hover {
   color: white;
 }
 nav svg {
-  margin-bottom: 39px;
+  margin-bottom: 58px;
 }
 main h1 {
   font-weight: 400;
@@ -86,4 +90,11 @@ main {
 .main__select h3:last-child:hover {
   color: black;
   background: url(img/Group4.png);
+}
+.background-page-2 {
+  background-image: url(img/bg2.png);
+}
+.background-page-2 .container {
+  padding-top: 239px;
+  padding-bottom: 0;
 }
