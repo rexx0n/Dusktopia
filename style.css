@@ -113,6 +113,7 @@ main {
 }
 .table__more {
   position: relative;
+  margin-top: -70px;
 }
 .table__more a {
   text-decoration: none;
@@ -137,13 +138,6 @@ main {
 }
 .table .four a {
   background: url(img/four.png);
-}
-.table__close {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  left: 252px;
-  bottom: 10.797px;
 }
 .badlands {
   background: url(img/image16.png);
@@ -191,8 +185,10 @@ main {
   text-transform: uppercase;
 }
 .badlands__icons {
+  height: 700px;
   padding-top: 100px;
   display: flex;
+  justify-content: space-between;
 }
 .badlands__icons div {
   display: flex;
@@ -210,4 +206,25 @@ main {
 .badlands .container main {
   max-width: 1566px;
   width: 100%;
+}
+.badlands__flex-end {
+  justify-content: flex-end;
+}
+.badlands__icons .badlands__flex-end img:first-child {
+  padding: 57px 24px 58px 24px;
+}
+.badlands__icons .badlands__flex-end img:last-child {
+  padding: 54px 24px 53px 24px;
+}
+.badlands__icons .badlands__padding img:first-child {
+  padding: 58px 25px 58px 24px;
+}
+.badlands__icons .badlands__padding img:last-child {
+  padding: 58px 25px 58px 24px;
+}
+.badlands__icons .badlands__flex-end--padding img:first-child {
+  padding: 28px 24px 58px 24px;
+}
+.badlands__icons .badlands__flex-end--padding img:last-child {
+  padding: 28px 24px 58px 24px;
 }

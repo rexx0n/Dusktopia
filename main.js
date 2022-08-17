@@ -24,16 +24,3 @@ li.forEach((element) => {
 //     });
 //   });
 // });
-
-let tableClose = document.querySelectorAll(".table__close");
-
-tableClose.forEach((element) => {
-  element.addEventListener("click", (e) => {
-    let divs = document.querySelectorAll(".table ul div");
-    divs.forEach((elemen) => {
-      if (elemen.classList.contains(element.id)) {
-        elemen.classList.add("table__more--none");
-      }
-    });
-  });
-});
