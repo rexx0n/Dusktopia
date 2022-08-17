@@ -74,7 +74,7 @@ main {
   font-size: 16px;
   line-height: 140%;
 }
-.main__select h3:first-child{
+.main__select h3:first-child {
   margin-right: 19px;
   padding: 20px 45px 14px 46px;
   background: url(img/Group48095869.png);
@@ -97,4 +97,51 @@ main {
 .background-page-2 .container {
   padding-top: 239px;
   padding-bottom: 0;
+  justify-content: space-between;
+}
+.table {
+  font-family: "TTOctosquares-Medium";
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 140%;
+}
+.table ul {
+  list-style-type: none;
+}
+.table li {
+  padding-bottom: 75px;
+}
+.table__more {
+  position: relative;
+}
+.table__more a {
+  text-decoration: none;
+  position: absolute;
+  color: black;
+  font-weight: 700;
+  left: -65px;
+  top: 32px;
+  font-size: 16px;
+  line-height: 140%;
+  background: url(img/Rectangle2.png);
+  padding: 21px 40px 14px 40px;
+}
+.table__more--none {
+  display: none;
+}
+.table .two a {
+  background: url(img/two.png);
+}
+.table .three a {
+  background: url(img/three.png);
+}
+.table .four a {
+  background: url(img/four.png);
+}
+.table__close {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 252px;
+  bottom: 10.797px;
 }
