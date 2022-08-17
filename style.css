@@ -145,3 +145,69 @@ main {
   left: 252px;
   bottom: 10.797px;
 }
+.badlands {
+  background: url(img/image16.png);
+  background-size: cover;
+}
+.badlands header {
+  padding-top: 55px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  max-width: 1790px;
+  padding-bottom: 229px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.badlands header a:first-child {
+  background: url(img/Group48095869.png);
+  padding: 18px 39px 14px 44px;
+  text-decoration: none;
+}
+.badlands header a:first-child:hover {
+  background: url(img/fsfas.png);
+  color: black;
+}
+.badlands header a:last-child {
+  background: url(img/Group48095869.png);
+  padding: 18px 28px 14px 37px;
+  text-decoration: none;
+}
+.badlands header a:last-child:hover {
+  background: url(img/fsfas.png);
+  color: black;
+}
+.badlands .container {
+  align-items: flex-start;
+  padding-bottom: 0;
+}
+.badlands .container main p {
+  padding-top: 60px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 140%;
+  max-width: 1128px;
+  text-transform: uppercase;
+}
+.badlands__icons {
+  padding-top: 100px;
+  display: flex;
+}
+.badlands__icons div {
+  display: flex;
+  flex-direction: column;
+}
+.badlands__icons div img:first-child {
+  background: url(img/bgicon1.png);
+  padding: 61px 30px 58px 30px;
+  margin-bottom: 30px;
+}
+.badlands__icons div img:last-child {
+  background: url(img/bgicon2.png);
+  padding: 61px 18px 58px 30px;
+}
+.badlands .container main {
+  max-width: 1566px;
+  width: 100%;
+}
