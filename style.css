@@ -193,6 +193,12 @@ main {
 .badlands__icons div {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 270px;
+}
+.badlands__icons div img {
+  background: rgba(255, 255, 255, 0.17);
+  backdrop-filter: blur(46px);
 }
 .badlands__icons div img:first-child {
   background: url(img/bgicon1.png);
@@ -204,7 +210,6 @@ main {
   padding: 61px 18px 58px 30px;
 }
 .badlands .container main {
-  max-width: 1566px;
   width: 100%;
 }
 .badlands__flex-end {
@@ -271,4 +276,26 @@ main .badlands__icons .badlands__flex-end--padding .frontier__bg--7 {
 }
 main .badlands__icons .badlands__flex-end--padding .frontier__bg--8 {
   background: url(img/bgIcon\(7\).png);
+}
+.grove {
+  background: url(img/image15.png);
+  background-size: cover;
+}
+.grove nav {
+  margin-top: 260px;
+}
+.grove .container main .badlands__icons div img {
+  background: rgba(255, 255, 255, 0.17);
+  backdrop-filter: blur(46px);
+}
+.sky {
+  background: url(img/City_05_Colorful1.png);
+  background-size: cover;
+}
+.sky nav {
+  margin-top: 227px;
+}
+.sky .container main .badlands__icons div img {
+  background: rgba(255, 255, 255, 0.17);
+  backdrop-filter: blur(46px);
 }
