@@ -299,3 +299,28 @@ main .badlands__icons .badlands__flex-end--padding .frontier__bg--8 {
   background: rgba(255, 255, 255, 0.17);
   backdrop-filter: blur(46px);
 }
+.background-page-3 {
+  background: url(img/pachinko-motel-a1.png),
+    linear-gradient(200.41deg, #0a1418 -20.47%, #352f46 112.47%);
+  background-position: right;
+  height: 2620px;
+  background-size: cover;
+}
+.background-page-3 main h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  max-width: 160px;
+  text-align: right;
+  line-height: 140%;
+  background: linear-gradient(90deg, #ffb800 0%, #ffbac3 70.62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.background-page-3 .container {
+  padding-top: 138px;
+  align-items: flex-start;
+}
+.background-page-2 nav {
+  padding-bottom: 168px;
+}
