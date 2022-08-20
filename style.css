@@ -324,3 +324,53 @@ main .badlands__icons .badlands__flex-end--padding .frontier__bg--8 {
 .background-page-2 nav {
   padding-bottom: 168px;
 }
+.main__roadmap {
+  display: flex;
+}
+.main__list div {
+  padding: 33px 71px 29px 26px;
+  margin-bottom: 63px;
+  background: url(img/Group8095762.png);
+}
+.main__list div:hover {
+  background: url(img/Frame48095761.png);
+  padding: 38px 21px 23px 37px;
+}
+.main__list div p:hover {
+  max-width: 445px;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+}
+.main__list div p span:hover {
+  color: black;
+  font-weight: 700;
+}
+.main__list div h2:hover {
+  font-family: "Neue Machina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: black;
+  line-height: 140%;
+}
+.main__list div p {
+  font-family: 'Mazzard';
+  color: white;
+  font-weight: 400;
+  font-size: 13px;
+  max-width: 365px;
+  line-height: 140%;
+}
+.main__list div p span {
+  color: white;
+  font-weight: 700;
+}
+.main__list div h2 {
+  font-family: "Neue Machina";
+  color: white;
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 140%;
+}
