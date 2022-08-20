@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  writing-mode: vertical-lr;
+  a {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 58px;
+    font-family: "Neue Machina";
+    font-size: 22px;
+    text-decoration: none;
+    &:hover {
+      color: white;
+    }
+  }
+  svg {
+    margin-bottom: 58px;
+  }
+}

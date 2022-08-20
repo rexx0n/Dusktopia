@@ -1,0 +1,23 @@
+.background-page-3 {
+  background: url(/img/pachinko-motel-a1.png),
+    linear-gradient(200.41deg, #0a1418 -20.47%, #352f46 112.47%);
+  background-position: right;
+  height: 2620px;
+  background-size: cover;
+  main {
+    h5 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      max-width: 160px;
+      text-align: right;
+      line-height: 140%;
+      background: linear-gradient(90deg, #ffb800 0%, #ffbac3 70.62%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .container {
+    padding-top: 138px;
+  }
+}

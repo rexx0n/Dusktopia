@@ -1,0 +1,19 @@
+.grove {
+  background: url(/img/image15.png);
+  background-size: cover;
+  nav {
+    margin-top: 260px;
+  }
+  .container {
+    main {
+      .badlands__icons {
+        div {
+          img {
+            background: rgba(255, 255, 255, 0.17);
+            backdrop-filter: blur(46px);
+          }
+        }
+      }
+    }
+  }
+}

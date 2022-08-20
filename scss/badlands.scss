@@ -1,0 +1,126 @@
+.badlands {
+  background: url(/img/image16.png);
+  background-size: cover;
+  nav {
+    margin-top: 169px;
+  }
+  &__flex-end {
+    justify-content: flex-end;
+    img:first-child {
+      padding: 57px 24px 58px 24px;
+      background: url(/img/bg-icon3.png);
+    }
+    img:last-child {
+      padding: 54px 24px 53px 24px;
+    }
+    .badlands__padding {
+      img:first-child {
+        padding: 58px 25px 58px 24px;
+        background: url(/img/bg-icon5.png);
+      }
+      img:last-child {
+        padding: 58px 25px 58px 24px;
+        background: url(/img/bg-icon6.png);
+      }
+    }
+    .badlands__flex-end--padding {
+      img:first-child {
+        padding: 28px 24px 58px 24px;
+        background: url(/img/bg-icon7.png);
+      }
+      img:last-child {
+        padding: 28px 24px 58px 24px;
+        background: url(/img/bg-icon7.png);
+      }
+    }
+  }
+  &__icons {
+    height: 500px;
+    overflow-y: scroll;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    &::-webkit-scrollbar {
+      width: 50px;
+    }
+    &::-webkit-scrollbar-track {
+      background: url(/img/vector85.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: url(/img/thumb.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 10px;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 270px;
+      img {
+        background: rgba(255, 255, 255, 0.17);
+        backdrop-filter: blur(46px);
+        background-repeat: no-repeat;
+        max-width: 270px;
+        max-height: 260px;
+        &:first-child {
+          background: url(/img/bgicon1.png);
+          padding: 61px 30px 58px 30px;
+          margin-bottom: 30px;
+        }
+        &:last-child {
+          background: url(/img/bgicon2.png);
+          padding: 61px 18px 58px 30px;
+        }
+      }
+    }
+  }
+  .container {
+    align-items: flex-start;
+    padding-bottom: 0;
+    main {
+      width: 100%;
+      p {
+        padding-top: 60px;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 140%;
+        max-width: 1128px;
+        text-transform: uppercase;
+      }
+    }
+  }
+  header {
+    padding-top: 55px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    max-width: 1790px;
+    padding-bottom: 229px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    a {
+      &:first-child {
+        background: url(/img/group48095869.png);
+        padding: 18px 39px 14px 44px;
+        text-decoration: none;
+        &:hover {
+          background: url(/img/fsfas.png);
+          color: black;
+        }
+      }
+      &:last-child {
+        background: url(/img/group48095869.png);
+        padding: 18px 28px 14px 37px;
+        text-decoration: none;
+        &:hover {
+          background: url(/img/fsfas.png);
+          color: black;
+        }
+      }
+    }
+  }
+}

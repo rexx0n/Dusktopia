@@ -1,0 +1,19 @@
+.sky {
+  background: url(/img/city_05_colorful1.png);
+  background-size: cover;
+  nav {
+    margin-top: 227px;
+  }
+  .container {
+    main {
+      .badlands__icons {
+        div {
+          img {
+            background: rgba(255, 255, 255, 0.17);
+            backdrop-filter: blur(46px);
+          }
+        }
+      }
+    }
+  }
+}

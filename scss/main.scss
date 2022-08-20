@@ -1,0 +1,123 @@
+main {
+  margin-left: 50px;
+  h1 {
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 78px;
+    letter-spacing: 0.365em;
+    margin-bottom: 39px;
+  }
+  .badlands__icons {
+    div {
+      .frontier__bg--1 {
+        background: url(/img/bgIcon-1.png);
+      }
+      .frontier__bg--2 {
+        background: url(/img/bgIcon-2.png);
+      }
+      .frontier__bg--4 {
+        background: url(/img/bgIcon-4.png);
+      }
+    }
+    .badlands__flex-end {
+      .frontier__bg--3 {
+        background: url(/img/bgIcon-3.png);
+      }
+    }
+    .badlands__padding {
+      .frontier__bg--5 {
+        background: url(/img/bgIcon-5.png);
+      }
+      .frontier__bg--6 {
+        background: url(/img/bgIcon-6.png);
+      }
+    }
+    .badlands__flex-end--padding {
+      .frontier__bg--7 {
+        background: url(/img/bgIcon-7.png);
+      }
+      .frontier__bg--8 {
+        background: url(/img/bgIcon-9.png);
+      }
+    }
+  }
+}
+.main {
+  &__list div {
+    padding: 33px 71px 29px 26px;
+    margin-bottom: 63px;
+    background: url(/img/group8095762.png);
+    background-repeat: no-repeat;
+    h2 {
+      font-family: "Neue Machina";
+      color: white;
+      font-weight: 700;
+      font-size: 41px;
+      line-height: 140%;
+    }
+    p {
+      font-family: "Mazzard";
+      color: white;
+      font-weight: 400;
+      font-size: 13px;
+      max-width: 365px;
+      line-height: 140%;
+      span {
+        color: white;
+        font-weight: 700;
+      }
+    }
+    &:hover {
+      background: url(/img/frame48095761.png);
+      padding: 38px 21px 23px 37px;
+      p {
+        max-width: 445px;
+        color: black;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 140%;
+        span {
+          color: black;
+          font-weight: 700;
+        }
+      }
+      h2 {
+        font-family: "Neue Machina";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        color: black;
+        line-height: 140%;
+      }
+    }
+  }
+  &__roadmap {
+    display: flex;
+  }
+  &__select {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    h3 {
+      &:first-child {
+        margin-right: 19px;
+        padding: 20px 45px 14px 46px;
+        background: url(/img/group48095869.png);
+        &:hover {
+          background: url(/img/fsfas.png);
+          color: black;
+        }
+      }
+      &:last-child {
+        padding: 20px 21px 14px 20px;
+        background: url(/img/group48095913.png);
+        &:hover {
+          color: black;
+          background: url(/img/group4.png);
+        }
+      }
+    }
+  }
+}

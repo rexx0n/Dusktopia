@@ -1,0 +1,18 @@
+.frontier {
+  background: url(/img/bg-frontier.png);
+  box-shadow: inset -1px 0px 900px 47px black;
+  background-size: cover;
+  nav {
+    margin-top: 260px;
+  }
+  main .badlands__icons div .frontier__bg--2 {
+    background: url(/img/bgIcon-2.png)
+  }
+  main .badlands__icons div .frontier__bg--4 {
+    background: url(/img/bgIcon-4.png);
+    background-repeat:no-repeat ;
+  }
+  main .badlands__icons div .frontier__bg--1 {
+    background: url(/img/bgIcon-1.png)
+  }
+}
