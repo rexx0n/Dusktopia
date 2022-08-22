@@ -1,4 +1,22 @@
 .collaborations {
+  margin-top: 184px;
+  &__logo {
+    display: flex;
+    justify-content: space-evenly;
+    p {
+      font-family: "TTOctosquares-Regular";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 100%;
+      padding: 46px 103px 79px 82px;
+      background-image: url(/img/logo.png);
+      background-repeat: no-repeat;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
   &__partners {
     text-align: center;
     h5 {
@@ -13,13 +31,8 @@
       background-clip: text;
       text-fill-color: transparent;
     }
-    h1 {
-      font-family: "TTOctosquares-Regular";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 64px;
-      line-height: 100%;
+  }
+  h1 {
       text-align: center;
     }
-  }
 }
