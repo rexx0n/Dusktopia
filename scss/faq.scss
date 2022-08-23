@@ -1,3 +1,27 @@
 .faq {
-    
+  &__questions {
+    background-image: url(/img/rectangle1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 69px;
+    &-column-1 {
+      max-width: 408px;
+      h3 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 117.8%;
+      }
+      p {
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
 }
