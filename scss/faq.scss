@@ -3,9 +3,11 @@
     background-image: url(/img/rectangle1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
     padding-top: 69px;
     &-column-1 {
       max-width: 408px;
+      padding-left: 31px;
       h3 {
         font-style: normal;
         font-weight: 400;
