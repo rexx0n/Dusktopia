@@ -4,10 +4,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    padding-top: 69px;
+    padding-top: 24px;
     &-column-1 {
-      max-width: 408px;
-      padding-left: 31px;
+      border-right: 2.28497px solid #FFFFFF;
+      max-width: 380px;
+      padding-top: 69px;
+      & div:first-child {
+        border-bottom: 2.28497px solid #FFFFFF;
+      }
       h3 {
         font-style: normal;
         font-weight: 400;
@@ -21,8 +25,13 @@
         font-size: 14px;
         line-height: 140%;
         span {
+          line-height: 33px;
           font-weight: 700;
+          font-size: 24px;
         }
+      }
+      div {
+        padding-left: 31px;
       }
     }
   }
