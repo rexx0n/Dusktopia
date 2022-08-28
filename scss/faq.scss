@@ -1,4 +1,8 @@
 .faq {
+  &__svg {
+    display: flex;
+    align-items: center;
+  }
   &__questions {
     background-image: url(/img/rectangle1.png);
     background-repeat: no-repeat;
@@ -6,11 +10,26 @@
     display: flex;
     padding-top: 24px;
     &-column-1 {
-      border-right: 2.28497px solid #FFFFFF;
+      border-right: 2.28497px solid #ffffff;
       max-width: 380px;
       padding-top: 69px;
+      .faq__svg {
+        div {
+          padding: 0;
+        }
+        .faq__svg-one {
+          padding: 14px 27px 12px 0px;
+          border-bottom: none;
+          border-right: 2.28497px solid #ffffff;
+        }
+        .faq__svg-two {
+          border-right: 2.28497px solid #ffffff;
+          padding: 14px 35px;
+        }
+      }
+
       & div:first-child {
-        border-bottom: 2.28497px solid #FFFFFF;
+        border-bottom: 2.28497px solid #ffffff;
       }
       h3 {
         font-style: normal;
