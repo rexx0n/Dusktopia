@@ -1,4 +1,19 @@
 .faq {
+  &__much {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    p span {
+      font-size: 16px;
+    }
+  }
+  &__dusklist {
+    margin-top: 50px;
+    border-bottom: 2.28497px solid #ffffff;
+    p {
+      margin-top: 16px;
+      padding-bottom: 50px;
+    }
+  }
   &__svg {
     display: flex;
     align-items: center;
@@ -13,7 +28,9 @@
       border-right: 2.28497px solid #ffffff;
       max-width: 380px;
       padding-top: 69px;
+      
       .faq__svg {
+        border-bottom: 2.28497px solid #ffffff;
         div {
           padding: 0;
         }
