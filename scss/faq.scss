@@ -1,17 +1,30 @@
 .faq {
+  &__svg-2 {
+    div {
+      &:first-child {
+        border-right: 2.28497px solid #ffffff;
+        padding: 30px 40px 29px 11px;
+      }
+      &:last-child {
+        padding-left: 38px;
+      }
+    }
+  }
   &__much {
-    margin-top: 50px;
     padding-bottom: 50px;
-    p span {
-      font-size: 16px;
+    p {
+      max-width: 300px;
+      span {
+        font-size: 16px;
+      }
     }
   }
   &__dusklist {
-    margin-top: 50px;
     border-bottom: 2.28497px solid #ffffff;
     p {
       margin-top: 16px;
       padding-bottom: 50px;
+      max-width: 461px;
     }
   }
   &__svg {
@@ -24,12 +37,57 @@
     background-size: cover;
     display: flex;
     padding-top: 24px;
+    & > div {
+      padding-top: 69px;
+      max-width: 560;
+      width: 100%;
+
+      & > div {
+        padding-left: 47px;
+        &:not(.faq__svg, :first-child, .faq__svg-2) {
+          margin-top: 50px;
+        }
+      }
+    }
+    h3 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 43px;
+      line-height: 117.8%;
+      padding-bottom: 16px;
+    }
+    p {
+      font-family: "Mazzard";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 140%;
+      span {
+        line-height: 33px;
+        font-weight: 700;
+        font-size: 24px;
+      }
+    }
+    &-column-2 {
+      border-right: 2.28497px solid #ffffff;
+      & div:last-child {
+        display: flex;
+        align-items: center;
+      }
+      > div:not(:last-child) {
+        border-bottom: 2.28497px solid #ffffff;
+      }
+      p {
+        padding-bottom: 50px;
+      }
+    }
     &-column-1 {
       border-right: 2.28497px solid #ffffff;
-      max-width: 380px;
-      padding-top: 69px;
-      
       .faq__svg {
+        justify-content: space-evenly;
+        & div:last-child {
+          padding-left: 27px;
+        }
         border-bottom: 2.28497px solid #ffffff;
         div {
           padding: 0;
@@ -41,33 +99,16 @@
         }
         .faq__svg-two {
           border-right: 2.28497px solid #ffffff;
-          padding: 14px 35px;
+          padding: 12px 47px 12px 0;
         }
       }
 
       & div:first-child {
         border-bottom: 2.28497px solid #ffffff;
-      }
-      h3 {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 31px;
-        line-height: 117.8%;
-      }
-      p {
-        font-family: "Mazzard";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 140%;
-        span {
-          line-height: 33px;
-          font-weight: 700;
-          font-size: 24px;
+        padding-bottom: 41px;
+        p {
+          max-width: 392px;
         }
-      }
-      div {
-        padding-left: 31px;
       }
     }
   }
