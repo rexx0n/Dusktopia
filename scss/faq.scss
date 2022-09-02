@@ -1,4 +1,9 @@
 .faq {
+  &__utility {
+    p{
+      max-width: 418px;
+    }
+  }
   &__svg-2 {
     div {
       &:first-child {
@@ -66,6 +71,19 @@
         line-height: 33px;
         font-weight: 700;
         font-size: 24px;
+      }
+    }
+    &-column-3 {
+      div:last-child {
+        p {
+          max-width: 393px;
+        }
+      }
+      p {
+        padding-bottom: 50px;
+      }
+      > div:not(:last-child) {
+        border-bottom: 2.28497px solid #ffffff;
       }
     }
     &-column-2 {
