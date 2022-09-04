@@ -1,0 +1,14 @@
+.team {
+  &__title {
+    text-align: center;
+    h5 {
+      background: linear-gradient(90deg, #ffb800 0%, #ffbac3 70.62%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 20px;
+    }
+  }
+  h1 {
+    text-align: center;
+  }
+}
